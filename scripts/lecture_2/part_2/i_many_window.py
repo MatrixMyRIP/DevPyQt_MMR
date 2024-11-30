@@ -63,8 +63,8 @@ class OtherWindow(QtWidgets.QWidget):
         """
 
         self.setFixedSize(300, 300)
-        label = QtWidgets.QLineEdit("Hello", self)
-        label.move(10, 10)
+        lineEdit = QtWidgets.QLineEdit("Hello", self)
+        lineEdit.move(10, 10)
 
 
 if __name__ == "__main__":
